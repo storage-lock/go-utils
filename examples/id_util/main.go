@@ -1,20 +1,3 @@
-# Utils
-
-# 一、这是什么
-
-整个工具库比较通用的、基础的工具方法会下沉到这里
-
-# 二、安装依赖
-
-```bash
-go get -u github.com/storage-lock/go-utils
-```
-
-# 三、API示例
-
-## 3.1 utils.RandomID
-
-```go
 package main
 
 import (
@@ -37,9 +20,3 @@ func main() {
 	// foo-prefix-fcc5cec3599a4539abc7eebabc4491b4
 
 }
-```
-
-
-
-
-
